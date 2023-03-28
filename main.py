@@ -1,3 +1,5 @@
+from problema1 import sumar_5_enteros
+
 '''
 Hasta ahora hemos
 trabajado con variables
@@ -43,3 +45,6 @@ if __name__ == '__main__':
     print(len(lista3))
     print(len(lista4))
 
+    print()
+
+    sumar_5_enteros()
