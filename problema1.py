@@ -23,3 +23,15 @@ def sumar_5_enteros():
     print("\nLa suma de todos sus elementos es:")
     print(suma)
 
+def primeros_cuatro_meses():
+
+    '''
+        Definir una lista por asignación que almacene los nombres de los
+        primeros cuatro meses del año.
+        Mostrar el primer y último elemento de la lista.
+    '''
+
+    meses = ["enero","febrero","marzo","abril"]
+    print(f'Primer mes del año {meses[0]}')
+    print(f'Segundo mes del año {meses[3]}')
+
