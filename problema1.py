@@ -31,7 +31,13 @@ def primeros_cuatro_meses():
         Mostrar el primer y último elemento de la lista.
     '''
 
-    meses = ["enero","febrero","marzo","abril"]
+    meses = ["enero","febrero","marzo","abril",
+             "mayo","junio","julio","agosto",
+             "septiembre","octubre","noviembre","diciembre"]
+
     print(f'Primer mes del año {meses[0]}')
-    print(f'Segundo mes del año {meses[3]}')
+    print(f'Segundo mes del año {meses[1]}')
+    print("Meses del año:")
+    for mes in meses:
+        print(mes)
 
