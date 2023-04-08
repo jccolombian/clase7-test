@@ -1,4 +1,4 @@
-from problema1 import sumar_5_enteros
+from problema1 import sumar_5_enteros, primeros_cuatro_meses
 
 '''
 Hasta ahora hemos
@@ -48,3 +48,7 @@ if __name__ == '__main__':
     print()
 
     sumar_5_enteros()
+
+    print()
+
+    primeros_cuatro_meses()
