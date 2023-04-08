@@ -41,3 +41,4 @@ def primeros_cuatro_meses():
     for mes in meses:
         print(mes)
 
+    print(f'Meses de mitad del año {meses[5]} y {meses[6]}')
