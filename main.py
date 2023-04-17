@@ -52,16 +52,16 @@ if __name__ == '__main__':
 
     print()
 
-<<<<<<< HEAD
+
     primeros_cuatro_meses()
 
     print()
 
     alumnos.alumnos()
-=======
+
     print()
 
     print("Los días laborales de la semana:")
 
     print(lista3)
->>>>>>> 47324dd (Cambia los valores de las listas en main.py generando conflicto para el merge:develop)
+
