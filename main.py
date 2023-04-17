@@ -24,16 +24,16 @@ usando un subíndice
 '''
 
 # lista de enteros
-lista1 = [10, 5, 3, 9]
+lista1 = [10, 5, 3, 9, 18]
 # lista de decimales
-lista2 = [1.78, 2.66, 1.55, 89.4]
+lista2 = [1.78, 2.66, 1.55, 89.4, 100.3]
 # lista de string
-lista3 = ["Lunes","Martes","Miercolés"]
+lista3 = ["Lunes","Martes","Miercolés","Jueves","Viernes"]
 '''
 lista de elementos
 de distinto tipo
 '''
-lista4 = ["juan",45,1.92]
+lista4 = ["juan",45,1.92,10000000]
 
 
 if __name__ == '__main__':
@@ -52,8 +52,16 @@ if __name__ == '__main__':
 
     print()
 
+
     primeros_cuatro_meses()
 
     print()
 
     alumnos.alumnos()
+
+    print()
+
+    print("Los días laborales de la semana:")
+
+    print(lista3)
+
